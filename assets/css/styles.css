@@ -77,7 +77,7 @@ body.dark-theme {
 }
 /*========== Font size variables to scale cv ==========*/
 
-body.scall-cv {
+body.scale-cv {
   --h1-font-size: .938rem;
   --h2-font-size: .938rem;
   --h3-font-size: .875rem;
@@ -104,83 +104,83 @@ body.scall-cv {
 
 /*========== Classes modified to reduce size and print on A4 sheet ==========*/
 
-.scall-cv .generate-pdf, 
-.scall-cv .change-theme {
+.scale-cv .generate-pdf, 
+.scale-cv .change-theme {
   display: none;
 } 
 
-.scall-cv .bd-container {
+.scale-cv .bd-container {
   max-width: 595px;
 }
 
-.scall-cv .section {
-  padding: 1.5rem 0 .80rem;
+.scale-cv .section {
+  padding: .80rem 0 .80rem;
 }
 
-.scall-cv .section-title {
+.scale-cv .section-title {
   margin-bottom: .75rem;
 }
 
-.scall-cv .resume__left, .scall-cv .resume__right {
+.scale-cv .resume__left, .scale-cv .resume__right {
   padding: 0 1rem;
 }
 
-.scall-cv .home__img {
+.scale-cv .home__img {
   width: 90px;
   height: 90px;
 }
 
-.scall-cv .home__container {
+.scale-cv .home__container {
   gap: 1.5rem;
 }
 
-.scall-cv .home__data {
+.scale-cv .home__data {
   grid-area: .25rem;
 }
 
-.scall-cv .home__address, .scall-cv .social__container {
+.scale-cv .home__address, .scale-cv .social__container {
   gap: .75rem;
 }
 
-.scall-cv .home__icon, .scall-cv .social__icon, .interest__icon {
+.scale-cv .home__icon, .scale-cv .social__icon, .interest__icon {
   font-size: 1rem;
 }
 
-.scall-cv .education__container,
-.scall-cv .experience__container, 
-.scall-cv .certificate__container {
+.scale-cv .education__container,
+.scale-cv .experience__container, 
+.scale-cv .certificate__container {
   gap: 1rem;
 } 
 
-.scall-cv .education__time,
-.scall-cv .experience__time {
+.scale-cv .education__time,
+.scale-cv .experience__time {
   padding-right: 0.5rem;
 }
 
-.scall-cv .education__rounder,
-.scall-cv .experience__rounder {
+.scale-cv .education__rounder,
+.scale-cv .experience__rounder {
   height: 11px;
   width: 11px;
   margin-top: 0.22rem;
 }
 
-.scall-cv .education__line,
-.scall-cv .experience__line {
+.scale-cv .education__line,
+.scale-cv .experience__line {
   width: 1px;
   height: 110%;
   transform: translate(5px, 0);
 }
 
-.scall-cv .education__data,
-.scall-cv .experience__data {
+.scale-cv .education__data,
+.scale-cv .experience__data {
   gap: .25rem;
 }
 
-.scall-cv .skills_name {
+.scale-cv .skills_name {
   margin-bottom: var(--mb-1);
 }
 
-.scall-cv .interest__container {
+.scale-cv .interest__container {
   column-gap: 2.5rem;
 }
 
